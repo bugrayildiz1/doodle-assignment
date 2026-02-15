@@ -181,6 +181,22 @@ You will receive a single JSON file containing 100,000 historical support ticket
 
 ---
 
+
+## Drift Detection
+
+You can check for data or model drift using the provided script:
+
+### Run Drift Detection
+
+```
+python scripts/check_drift.py --train feature_store/train_features.parquet --test feature_store/test_features.parquet --model_type keras
+```
+
+- This will compare the distributions of numeric features between train and test sets.
+- Results are logged to MLflow and top drifted features are printed in the terminal.
+- You can change the `--model_type` argument as needed (e.g., `keras`, `xgboost`).
+
+---
 ## 🐳 Containerized Deployment (Docker)
 
 To ensure consistency across environments, you can build and run this project using Docker. This encapsulates all dependencies and environment settings, so it will work the same way everywhere.

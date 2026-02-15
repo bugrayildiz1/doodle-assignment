@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/c1243cb8caac4f9ab5c91d3ca5673b4c/artifacts
+end_time: 1771178025013
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: c1243cb8caac4f9ab5c91d3ca5673b4c
+run_name: spiffy-robin-221
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771178019848
+status: 3
+tags: []
+user_id: bugrayildiz

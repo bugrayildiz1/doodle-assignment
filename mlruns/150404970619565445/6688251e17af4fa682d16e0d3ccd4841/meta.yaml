@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/6688251e17af4fa682d16e0d3ccd4841/artifacts
+end_time: 1771176114513
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: 6688251e17af4fa682d16e0d3ccd4841
+run_name: thundering-squid-332
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771176113979
+status: 4
+tags: []
+user_id: bugrayildiz

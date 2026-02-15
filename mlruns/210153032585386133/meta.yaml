@@ -1,0 +1,6 @@
+artifact_location: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133
+creation_time: 1771072300778
+experiment_id: '210153032585386133'
+last_update_time: 1771072300778
+lifecycle_stage: active
+name: ticket_categorization_xgboost

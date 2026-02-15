@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/db373b28a1bc4625bc783939c857dbcb/artifacts
+end_time: 1771082572143
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: db373b28a1bc4625bc783939c857dbcb
+run_name: bustling-seal-758
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771082572115
+status: 3
+tags: []
+user_id: bugrayildiz

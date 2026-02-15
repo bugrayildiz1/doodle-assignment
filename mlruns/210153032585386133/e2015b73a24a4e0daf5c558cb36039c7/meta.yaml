@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/e2015b73a24a4e0daf5c558cb36039c7/artifacts
+end_time: 1771155538920
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: e2015b73a24a4e0daf5c558cb36039c7
+run_name: placid-zebra-822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771155534601
+status: 3
+tags: []
+user_id: bugrayildiz

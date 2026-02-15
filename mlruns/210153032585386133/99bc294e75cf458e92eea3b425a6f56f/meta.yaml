@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/99bc294e75cf458e92eea3b425a6f56f/artifacts
+end_time: 1771156937200
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 99bc294e75cf458e92eea3b425a6f56f
+run_name: masked-boar-735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771156932416
+status: 3
+tags: []
+user_id: bugrayildiz

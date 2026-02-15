@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/cf6746f2ee65475fb369636893ba51cb/artifacts
+end_time: 1771149046358
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: cf6746f2ee65475fb369636893ba51cb
+run_name: masked-eel-865
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771148863083
+status: 3
+tags: []
+user_id: bugrayildiz

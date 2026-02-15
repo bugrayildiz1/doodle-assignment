@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+xgboost
+catboost
+tensorflow
+mlflow
+sentence-transformers
+networkx
+python-dotenv
+pydantic
+pytest
+httpx
+jupyter

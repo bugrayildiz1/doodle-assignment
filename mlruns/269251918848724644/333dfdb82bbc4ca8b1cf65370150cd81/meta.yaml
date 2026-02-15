@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/269251918848724644/333dfdb82bbc4ca8b1cf65370150cd81/artifacts
+end_time: 1771075322425
+entry_point_name: ''
+experiment_id: '269251918848724644'
+lifecycle_stage: active
+run_id: 333dfdb82bbc4ca8b1cf65370150cd81
+run_name: drift_detection
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771075322406
+status: 3
+tags: []
+user_id: bugrayildiz

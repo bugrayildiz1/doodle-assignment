@@ -1,0 +1,10 @@
+artifact_location: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/models/m-bf7089bd01104c58b91c23e5762092a4/artifacts
+creation_timestamp: 1771155385675
+experiment_id: '210153032585386133'
+last_updated_timestamp: 1771155388026
+model_id: m-bf7089bd01104c58b91c23e5762092a4
+model_type: null
+name: xgboost_model
+source_run_id: 6880574c2264400ca10bc669b3ccc942
+status: 2
+status_message: null

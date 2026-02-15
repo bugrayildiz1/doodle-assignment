@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/69b60cf9bc924de4a408ae731ad92d35/artifacts
+end_time: 1771156746797
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 69b60cf9bc924de4a408ae731ad92d35
+run_name: polite-crow-987
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771156742231
+status: 3
+tags: []
+user_id: bugrayildiz

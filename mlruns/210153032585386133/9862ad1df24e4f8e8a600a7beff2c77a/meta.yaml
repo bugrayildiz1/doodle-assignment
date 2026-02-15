@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/9862ad1df24e4f8e8a600a7beff2c77a/artifacts
+end_time: 1771155681334
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 9862ad1df24e4f8e8a600a7beff2c77a
+run_name: indecisive-shark-20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771155675299
+status: 3
+tags: []
+user_id: bugrayildiz

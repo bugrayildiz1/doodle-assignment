@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/ce20fc51af004c2fa7b9a4a5a950e1cb/artifacts
+end_time: 1771155182489
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: ce20fc51af004c2fa7b9a4a5a950e1cb
+run_name: luxuriant-stork-730
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771155178498
+status: 3
+tags: []
+user_id: bugrayildiz

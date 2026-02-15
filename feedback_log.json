@@ -1,0 +1,41 @@
+[
+  {
+    "ticket_id": "TK-2026-000001",
+    "agent_id": "AGENT-001",
+    "correction": "Category should be 'Billing', not 'Technical'.",
+    "customer_id": "CUST-12345",
+    "feedback_text": "Agent was helpful, but initial answer was wrong.",
+    "satisfaction_score": 4,
+    "timestamp": "2026-02-15T11:08:42.831393"
+  },
+  {
+    "ticket_id": "TK-2026-000002",
+    "agent_id": "AGENT-002",
+    "correction": "Subcategory should be 'Login', not 'Account'.",
+    "customer_id": "CUST-54321",
+    "feedback_text": "Issue was not resolved on first attempt.",
+    "satisfaction_score": 2,
+    "resolution_success": false,
+    "timestamp": "2026-02-15T11:09:26.658093"
+  },
+  {
+    "ticket_id": "TK-2026-000001",
+    "agent_id": "AGENT-001",
+    "correction": "Category should be 'Billing', not 'Technical'.",
+    "customer_id": "CUST-12345",
+    "feedback_text": "Agent was helpful, but initial answer was wrong.",
+    "satisfaction_score": 4,
+    "resolution_success": null,
+    "timestamp": "2026-02-15T11:15:40.321049"
+  },
+  {
+    "ticket_id": "TK-2026-000002",
+    "agent_id": "AGENT-002",
+    "correction": "Subcategory should be 'Login', not 'Account'.",
+    "customer_id": "CUST-54321",
+    "feedback_text": "Issue was not resolved on first attempt.",
+    "satisfaction_score": 2,
+    "resolution_success": false,
+    "timestamp": "2026-02-15T11:15:40.550262"
+  }
+]

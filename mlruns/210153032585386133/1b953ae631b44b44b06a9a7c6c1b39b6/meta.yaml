@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/1b953ae631b44b44b06a9a7c6c1b39b6/artifacts
+end_time: 1771155304611
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 1b953ae631b44b44b06a9a7c6c1b39b6
+run_name: aged-pig-787
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771155300264
+status: 3
+tags: []
+user_id: bugrayildiz

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/7ed4651759b34dc1a79ce617b48e0773/artifacts
+end_time: 1771072302524
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 7ed4651759b34dc1a79ce617b48e0773
+run_name: big-deer-436
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771072301116
+status: 3
+tags: []
+user_id: bugrayildiz

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/3eeb662480d44765acb5a43c6f535717/artifacts
+end_time: 1771155713927
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 3eeb662480d44765acb5a43c6f535717
+run_name: able-finch-358
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771155709808
+status: 3
+tags: []
+user_id: bugrayildiz

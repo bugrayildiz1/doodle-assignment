@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/d5cc1df7e5a04a43b7383805930f78b3/artifacts
+end_time: 1771075855937
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: d5cc1df7e5a04a43b7383805930f78b3
+run_name: capable-auk-759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771075841124
+status: 3
+tags: []
+user_id: bugrayildiz

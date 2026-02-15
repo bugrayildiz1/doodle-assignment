@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/49e0feffbc5743f7ab620b7050aaa29f/artifacts
+end_time: 1771152900382
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 49e0feffbc5743f7ab620b7050aaa29f
+run_name: crawling-mink-231
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771152896559
+status: 3
+tags: []
+user_id: bugrayildiz

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/64d5413683c149df8a07c967136bd479/artifacts
+end_time: 1771074013042
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: 64d5413683c149df8a07c967136bd479
+run_name: useful-elk-254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771073976868
+status: 3
+tags: []
+user_id: bugrayildiz

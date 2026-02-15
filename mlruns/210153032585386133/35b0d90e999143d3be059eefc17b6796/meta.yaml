@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/35b0d90e999143d3be059eefc17b6796/artifacts
+end_time: 1771073873271
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 35b0d90e999143d3be059eefc17b6796
+run_name: orderly-stork-492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771073873194
+status: 3
+tags: []
+user_id: bugrayildiz

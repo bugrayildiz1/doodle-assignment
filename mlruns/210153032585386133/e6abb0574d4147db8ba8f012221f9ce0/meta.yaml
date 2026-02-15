@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/e6abb0574d4147db8ba8f012221f9ce0/artifacts
+end_time: 1771156776474
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: e6abb0574d4147db8ba8f012221f9ce0
+run_name: bemused-skink-354
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771156772332
+status: 3
+tags: []
+user_id: bugrayildiz

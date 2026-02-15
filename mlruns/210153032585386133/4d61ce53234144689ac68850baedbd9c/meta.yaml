@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/4d61ce53234144689ac68850baedbd9c/artifacts
+end_time: 1771073961677
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 4d61ce53234144689ac68850baedbd9c
+run_name: brawny-seal-436
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771073959754
+status: 3
+tags: []
+user_id: bugrayildiz

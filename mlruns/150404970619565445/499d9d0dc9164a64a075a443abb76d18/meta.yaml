@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/499d9d0dc9164a64a075a443abb76d18/artifacts
+end_time: 1771149286446
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: 499d9d0dc9164a64a075a443abb76d18
+run_name: resilient-gnat-330
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771149098541
+status: 3
+tags: []
+user_id: bugrayildiz

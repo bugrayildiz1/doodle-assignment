@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/e3fb4e8eb8db4d27b50e0453946475ea/artifacts
+end_time: 1771072746840
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: e3fb4e8eb8db4d27b50e0453946475ea
+run_name: bouncy-cat-798
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771072746811
+status: 3
+tags: []
+user_id: bugrayildiz

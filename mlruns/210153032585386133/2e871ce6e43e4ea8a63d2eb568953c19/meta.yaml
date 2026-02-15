@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/2e871ce6e43e4ea8a63d2eb568953c19/artifacts
+end_time: 1771072745090
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 2e871ce6e43e4ea8a63d2eb568953c19
+run_name: xgboost_training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771072742557
+status: 3
+tags: []
+user_id: bugrayildiz

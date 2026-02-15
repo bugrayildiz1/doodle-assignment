@@ -1,0 +1,22 @@
+artifact_path: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/models/m-432fd75f50bf49bcbeb0012309c90880/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.12
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.9.0
+model_id: m-432fd75f50bf49bcbeb0012309c90880
+model_size_bytes: 186178
+model_uuid: m-432fd75f50bf49bcbeb0012309c90880
+prompts: null
+run_id: 18033b140ca54e1e99f41ab7a45066b2
+utc_time_created: '2026-02-14 12:57:46.633997'

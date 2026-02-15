@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/fe31c7a522e8410e83a615d23457f63b/artifacts
+end_time: 1771155773545
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: fe31c7a522e8410e83a615d23457f63b
+run_name: nimble-stoat-397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771155769361
+status: 3
+tags: []
+user_id: bugrayildiz

@@ -1,0 +1,22 @@
+artifact_path: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/models/m-e189e69b4cd9416bbd309942fd1be1ab/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.12
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.19.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.9.0
+model_id: m-e189e69b4cd9416bbd309942fd1be1ab
+model_size_bytes: 1028223
+model_uuid: m-e189e69b4cd9416bbd309942fd1be1ab
+prompts: null
+run_id: b6676ece0e7945e9850b50de5a1beca1
+utc_time_created: '2026-02-14 15:16:34.156955'

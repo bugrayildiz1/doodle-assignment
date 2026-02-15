@@ -1,0 +1,10 @@
+artifact_location: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/models/m-432fd75f50bf49bcbeb0012309c90880/artifacts
+creation_timestamp: 1771073866581
+experiment_id: '210153032585386133'
+last_updated_timestamp: 1771073871216
+model_id: m-432fd75f50bf49bcbeb0012309c90880
+model_type: null
+name: model
+source_run_id: 18033b140ca54e1e99f41ab7a45066b2
+status: 2
+status_message: null

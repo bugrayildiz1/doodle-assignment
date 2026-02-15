@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/f4f50f870f05467fbcea9d049082e2b7/artifacts
+end_time: 1771156634768
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: f4f50f870f05467fbcea9d049082e2b7
+run_name: languid-rook-192
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771156596656
+status: 3
+tags: []
+user_id: bugrayildiz

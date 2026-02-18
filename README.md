@@ -176,7 +176,7 @@ You will receive a single JSON file containing 100,000 historical support ticket
 
 
 
-## 🏃‍♂️ How to Run Each Component
+## How to Run Each Component
 
 ### 1. Data Preparation
 

@@ -173,12 +173,69 @@ You will receive a single JSON file containing 100,000 historical support ticket
 - Experiment tracking and model lineage documentation
 
 ### 4. README
-- Clear setup and installation instructions with minimal manual configuration
-- API documentation with sample requests/responses
-- Key design decisions and trade-offs
-- Instructions for running the system with the provided JSON file
-- Guide for reproducing training and evaluation results
 
+
+
+## 🏃‍♂️ How to Run Each Component
+
+### 1. Data Preparation
+
+**Split the raw support tickets into train/val/test:**
+```bash
+python src/data_pipeline/ingest_and_split.py
+```
+- Input: `support_tickets.json`
+- Output: `data_splits/train.json`, `data_splits/val.json`, `data_splits/test.json`
+
+**Feature Engineering:**
+```bash
+python src/data_pipeline/feature_engineering.py
+```
+- Reads the splits and generates feature files in `feature_store/`.
+
+### 2. TF-IDF Feature Generation
+
+**Generate TF-IDF features for ticket descriptions:**
+```bash
+python src/models/generate_tfidf_features.py
+```
+- Produces `feature_store/train_tfidf_description.parquet`, etc., and saves the vectorizer in `models/`.
+
+### 3. Model Training
+
+**Train XGBoost Model:**
+```bash
+python src/models/train_xgboost.py
+```
+- Trains and saves the XGBoost classifier using engineered features.
+
+**Train Keras (Deep Learning) Model:**
+```bash
+python src/models/train_keras.py
+```
+- Trains and saves the Keras neural network using both numeric and TF-IDF features.
+
+### 4. Drift Detection
+
+**Check for data/model drift:**
+```bash
+python scripts/check_drift.py --train feature_store/train_features.parquet --test feature_store/test_features.parquet --model_type keras
+```
+- Compares feature distributions and logs results to MLflow.
+
+### 5. Hyperparameter Search (Optional)
+
+**Run hyperparameter optimization:**
+```bash
+python scripts/hyperparameter_search.py
+```
+- Searches for optimal model parameters and logs results.
+
+---
+
+- All scripts are runnable as shown above.
+- Ensure you have installed dependencies from `requirements.txt` and activated your Python environment.
+- For containerized execution, use the provided Docker instructions.
 ---
 
 

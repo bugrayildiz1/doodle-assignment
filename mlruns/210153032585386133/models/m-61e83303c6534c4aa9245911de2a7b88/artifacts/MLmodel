@@ -1,0 +1,23 @@
+artifact_path: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/models/m-61e83303c6534c4aa9245911de2a7b88/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-61e83303c6534c4aa9245911de2a7b88
+model_size_bytes: 770055
+model_uuid: m-61e83303c6534c4aa9245911de2a7b88
+prompts: null
+run_id: c564ba55cb704c58947e61507d30bc87
+utc_time_created: '2026-02-18 14:26:17.120833'

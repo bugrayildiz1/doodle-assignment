@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/c564ba55cb704c58947e61507d30bc87/artifacts
+end_time: 1771424780046
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: c564ba55cb704c58947e61507d30bc87
+run_name: powerful-slug-250
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771424773570
+status: 3
+tags: []
+user_id: bugrayildiz

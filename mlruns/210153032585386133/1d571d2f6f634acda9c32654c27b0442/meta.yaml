@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/1d571d2f6f634acda9c32654c27b0442/artifacts
+end_time: 1771431875764
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: 1d571d2f6f634acda9c32654c27b0442
+run_name: aged-snake-895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771431868572
+status: 3
+tags: []
+user_id: bugrayildiz

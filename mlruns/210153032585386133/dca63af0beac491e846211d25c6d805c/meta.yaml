@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/dca63af0beac491e846211d25c6d805c/artifacts
+end_time: 1771426756675
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: dca63af0beac491e846211d25c6d805c
+run_name: redolent-donkey-452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771426749841
+status: 3
+tags: []
+user_id: bugrayildiz

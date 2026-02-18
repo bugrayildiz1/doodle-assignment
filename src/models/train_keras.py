@@ -116,6 +116,41 @@ def main():
             plt.close()
 
         print("Keras model training and evaluation complete. Model logged to MLflow.")
+        
+        # Permutation importance for Keras model
+        from sklearn.inspection import permutation_importance
+        from sklearn.base import BaseEstimator, ClassifierMixin
+        print("Computing permutation importance for Keras model on test set...")
+        class KerasClassifierWrapper(BaseEstimator, ClassifierMixin):
+            def __init__(self, model):
+                self.model = model
+            def fit(self, X, y):
+                return self
+            def predict(self, X):
+                return np.argmax(self.model.predict(X), axis=1)
+        keras_estimator = KerasClassifierWrapper(model)
+        result = permutation_importance(
+            estimator=keras_estimator,
+            X=X_test,
+            y=y_test,
+            scoring=lambda est, X, y: f1_score(y, est.predict(X), average='weighted'),
+            n_repeats=2,
+            random_state=42
+        )
+        importances = result.importances_mean
+        feature_names = [f'f{i}' for i in range(X_test.shape[1])]
+        indices = np.argsort(importances)[::-1][:20]
+        print("Top 20 Feature Importances (Keras, permutation):")
+        for idx in indices:
+            print(f"{feature_names[idx]}: {importances[idx]:.4f}")
+        # Save top 20 feature importances to CSV
+        import pandas as pd
+        fi_df = pd.DataFrame({
+            'feature': [feature_names[idx] for idx in indices],
+            'importance': [importances[idx] for idx in indices]
+        })
+        fi_df.to_csv('model_results/keras/feature_importance.csv', index=False)
+        print("Top 20 feature importances saved to model_results/keras/feature_importance.csv")
 
 if __name__ == "__main__":
     main()

@@ -20,7 +20,20 @@ def load_features_labels(feature_path, label_col="category"):
     return X, y
 
 def train_xgboost(X_train, y_train, X_val, y_val):
-    model = xgb.XGBClassifier(objective='multi:softmax', use_label_encoder=False, eval_metric='mlogloss', early_stopping_rounds=10)
+    model = xgb.XGBClassifier(
+        objective='multi:softmax',
+        use_label_encoder=False,
+        eval_metric='mlogloss',
+        early_stopping_rounds=10,
+        max_depth=4,                # Lowered from default (6)
+        min_child_weight=3,         # Increased from default (1)
+        subsample=0.8,              # Add row subsampling
+        colsample_bytree=0.8,       # Add feature subsampling
+        reg_alpha=0.1,              # L1 regularization
+        reg_lambda=1.0,             # L2 regularization
+        learning_rate=0.05,         # Lower learning rate
+        n_estimators=200            # More trees to compensate for lower learning rate
+    )
     model.fit(
         X_train, y_train,
         eval_set=[(X_val, y_val)]
@@ -75,6 +88,33 @@ def main():
         mlflow.log_metric("f1_train", f1_train)
         mlflow.log_metric("f1_val", f1_val)
         mlflow.log_metric("f1_test", f1_test)
+
+        # Plot and save feature importances
+        import matplotlib.pyplot as plt
+        xgb.plot_importance(model, max_num_features=20)
+        plt.tight_layout()
+        plt.savefig('model_results/xgboost/feature_importance.png')
+        plt.close()
+
+
+        # Save all feature importances to CSV (like Keras)
+        import numpy as np
+        import pandas as pd
+        feature_names = X_train.columns if hasattr(X_train, 'columns') else [f'f{i}' for i in range(X_train.shape[1])]
+        importances = model.feature_importances_
+        fi_df = pd.DataFrame({
+            'feature': feature_names,
+            'importance': importances
+        })
+        fi_df = fi_df.sort_values('importance', ascending=False)
+        fi_df.to_csv('model_results/xgboost/feature_importance.csv', index=False)
+
+        # Print top 20 feature importances
+        indices = np.argsort(importances)[::-1][:20]
+        print("Top 20 Feature Importances:")
+        for idx in indices:
+            print(f"{feature_names[idx]}: {importances[idx]:.4f}")
+        print("All feature importances saved to model_results/xgboost/feature_importance.csv")
 
         print("Model training and evaluation complete. Model logged to MLflow.")
 

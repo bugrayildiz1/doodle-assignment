@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/853e519d62ad453e8d3a688532ed2835/artifacts
+end_time: 1771432066243
+entry_point_name: ''
+experiment_id: '150404970619565445'
+lifecycle_stage: active
+run_id: 853e519d62ad453e8d3a688532ed2835
+run_name: upset-gnu-44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771432036933
+status: 4
+tags: []
+user_id: bugrayildiz

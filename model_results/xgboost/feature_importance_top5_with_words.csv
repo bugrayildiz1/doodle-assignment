@@ -1,0 +1,6 @@
+rank,feature,word,importance
+1,tfidf_65,management,0.11215088
+2,tfidf_15,consuming,0.11163788
+3,tfidf_17,currently,0.095217966
+4,tfidf_28,error_auth_401,0.07822538
+5,tfidf_18,dashboard,0.058235686

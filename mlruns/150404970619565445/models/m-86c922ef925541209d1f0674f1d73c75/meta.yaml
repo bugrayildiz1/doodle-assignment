@@ -1,0 +1,10 @@
+artifact_location: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge%202/mlruns/150404970619565445/models/m-86c922ef925541209d1f0674f1d73c75/artifacts
+creation_timestamp: 1771426791056
+experiment_id: '150404970619565445'
+last_updated_timestamp: 1771426797170
+model_id: m-86c922ef925541209d1f0674f1d73c75
+model_type: null
+name: keras_model
+source_run_id: 29986c130b334976a82b8257302012bf
+status: 2
+status_message: null

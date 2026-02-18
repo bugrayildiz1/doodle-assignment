@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/bugrayildiz/Downloads/full-stack-ai-challenge 2/mlruns/210153032585386133/a6753c50c217462b9f76342563ccafea/artifacts
+end_time: 1771435851352
+entry_point_name: ''
+experiment_id: '210153032585386133'
+lifecycle_stage: active
+run_id: a6753c50c217462b9f76342563ccafea
+run_name: dashing-shark-736
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771435843658
+status: 3
+tags: []
+user_id: bugrayildiz

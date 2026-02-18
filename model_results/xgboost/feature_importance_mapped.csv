@@ -1,0 +1,188 @@
+feature,word_or_column,importance
+tfidf_65,management,0.11215088
+tfidf_15,consuming,0.11163788
+tfidf_17,currently,0.095217966
+tfidf_28,error_auth_401,0.07822538
+tfidf_18,dashboard,0.058235686
+tfidf_3,allows,0.050242875
+tfidf_0,accessed,0.04805281
+tfidf_106,unable,0.047377113
+tfidf_2,affecting,0.044328954
+tfidf_6,appears,0.044155713
+tfidf_59,issues,0.042693514
+tfidf_12,code,0.039718416
+tfidf_1,additional,0.039207492
+tfidf_32,error_deadlock,0.038137246
+tfidf_132,[OUT OF RANGE],0.037711844
+tfidf_93,slowly,0.033258755
+tfidf_8,blocked,0.02762134
+tfidf_11,cloudbackup,0.024235174
+tfidf_133,[OUT OF RANGE],0.009444108
+tfidf_22,different,0.007860449
+tfidf_21,days,0.00640565
+tfidf_63,login,0.003764902
+tfidf_23,efficiency,0.00031588244
+tfidf_98,taking,0.0
+tfidf_99,tasks,0.0
+tfidf_104,tried,0.0
+tfidf_100,team,0.0
+tfidf_107,update,0.0
+tfidf_105,trying,0.0
+tfidf_101,throwing,0.0
+tfidf_102,time,0.0
+tfidf_103,timeout,0.0
+tfidf_94,standard,0.0
+tfidf_97,support,0.0
+tfidf_96,streamprocessor,0.0
+tfidf_72,past,0.0
+tfidf_73,perform,0.0
+tfidf_74,persists,0.0
+tfidf_75,pricing,0.0
+tfidf_76,pro,0.0
+tfidf_77,proceed,0.0
+tfidf_78,process,0.0
+tfidf_79,productivity,0.0
+tfidf_80,provide,0.0
+tfidf_81,recent,0.0
+tfidf_82,records,0.0
+tfidf_83,reporting,0.0
+tfidf_84,request,0.0
+tfidf_85,requirements,0.0
+tfidf_86,restarting,0.0
+tfidf_87,running,0.0
+tfidf_88,seats,0.0
+tfidf_89,seconds,0.0
+tfidf_90,seeing,0.0
+tfidf_91,service,0.0
+tfidf_92,showing,0.0
+tfidf_109,users,0.0
+tfidf_95,started,0.0
+tfidf_108,upgrade,0.0
+customer_tier,customer_tier,0.0
+tfidf_110,usually,0.0
+tfidf_143,[OUT OF RANGE],0.0
+tfidf_135,[OUT OF RANGE],0.0
+tfidf_136,[OUT OF RANGE],0.0
+tfidf_137,[OUT OF RANGE],0.0
+tfidf_138,[OUT OF RANGE],0.0
+tfidf_139,[OUT OF RANGE],0.0
+tfidf_140,[OUT OF RANGE],0.0
+tfidf_141,[OUT OF RANGE],0.0
+tfidf_142,[OUT OF RANGE],0.0
+tfidf_144,[OUT OF RANGE],0.0
+tfidf_131,[OUT OF RANGE],0.0
+tfidf_145,[OUT OF RANGE],0.0
+tfidf_146,[OUT OF RANGE],0.0
+tfidf_147,[OUT OF RANGE],0.0
+tfidf_148,[OUT OF RANGE],0.0
+tfidf_149,[OUT OF RANGE],0.0
+tfidf_150,[OUT OF RANGE],0.0
+tfidf_151,[OUT OF RANGE],0.0
+tfidf_152,[OUT OF RANGE],0.0
+tfidf_134,[OUT OF RANGE],0.0
+tfidf_130,[OUT OF RANGE],0.0
+tfidf_111,values,0.0
+tfidf_119,[OUT OF RANGE],0.0
+tfidf_112,ve,0.0
+tfidf_113,workflow,0.0
+tfidf_70,noticed,0.0
+tfidf_114,[OUT OF RANGE],0.0
+tfidf_115,[OUT OF RANGE],0.0
+tfidf_116,[OUT OF RANGE],0.0
+tfidf_117,[OUT OF RANGE],0.0
+tfidf_118,[OUT OF RANGE],0.0
+tfidf_120,[OUT OF RANGE],0.0
+tfidf_129,[OUT OF RANGE],0.0
+tfidf_121,[OUT OF RANGE],0.0
+tfidf_122,[OUT OF RANGE],0.0
+tfidf_123,[OUT OF RANGE],0.0
+tfidf_124,[OUT OF RANGE],0.0
+tfidf_125,[OUT OF RANGE],0.0
+tfidf_126,[OUT OF RANGE],0.0
+tfidf_127,[OUT OF RANGE],0.0
+tfidf_128,[OUT OF RANGE],0.0
+tfidf_71,operations,0.0
+tfidf_60,items,0.0
+tfidf_69,need,0.0
+auto_suggestion_accepted,auto_suggestion_accepted,0.0
+response_count,response_count,0.0
+attachments_count,attachments_count,0.0
+contains_error_code,contains_error_code,0.0
+contains_stack_trace,contains_stack_trace,0.0
+business_impact,business_impact,0.0
+affected_users,affected_users,0.0
+weekend_ticket,weekend_ticket,0.0
+after_hours,after_hours,0.0
+language,language,0.0
+region,region,0.0
+tfidf_4,analytics,0.0
+tfidf_5,api,0.0
+tfidf_7,authentication,0.0
+tfidf_9,bulk,0.0
+tfidf_10,causing,0.0
+tfidf_13,compliance,0.0
+tfidf_14,concerns,0.0
+ticket_text_length,ticket_text_length,0.0
+bug_report_filed,bug_report_filed,0.0
+tfidf_19,data,0.0
+known_issue,known_issue,0.0
+product_module,product_module,0.0
+priority,priority,0.0
+severity,severity,0.0
+channel,channel,0.0
+previous_tickets,previous_tickets,0.0
+resolution_time_hours,resolution_time_hours,0.0
+resolution_attempts,resolution_attempts,0.0
+agent_experience_months,agent_experience_months,0.0
+agent_specialization,agent_specialization,0.0
+escalated,escalated,0.0
+transferred_count,transferred_count,0.0
+satisfaction_score,satisfaction_score,0.0
+resolution_helpful,resolution_helpful,0.0
+account_age_days,account_age_days,0.0
+account_monthly_value,account_monthly_value,0.0
+similar_issues_last_30_days,similar_issues_last_30_days,0.0
+product_version_age_days,product_version_age_days,0.0
+tfidf_16,critical,0.0
+tfidf_20,datasync,0.0
+tfidf_68,minutes,0.0
+tfidf_46,extremely,0.0
+tfidf_48,gateway,0.0
+tfidf_49,getting,0.0
+tfidf_50,greatly,0.0
+tfidf_51,grown,0.0
+tfidf_52,happening,0.0
+tfidf_53,having,0.0
+tfidf_54,improve,0.0
+tfidf_55,inconsistencies,0.0
+tfidf_56,information,0.0
+tfidf_57,interfaces,0.0
+tfidf_58,issue,0.0
+product,product,0.0
+tfidf_61,license,0.0
+tfidf_62,like,0.0
+tfidf_64,logs,0.0
+tfidf_66,mechanism,0.0
+tfidf_67,meets,0.0
+tfidf_47,feature,0.0
+tfidf_45,experiencing,0.0
+tfidf_24,ensure,0.0
+tfidf_44,errors,0.0
+tfidf_25,enterprise,0.0
+tfidf_26,entire,0.0
+tfidf_27,error,0.0
+tfidf_29,error_conflict_409,0.0
+tfidf_30,error_connection_refused,0.0
+tfidf_31,error_corruption,0.0
+tfidf_33,error_disk_full,0.0
+tfidf_34,error_invalid_400,0.0
+tfidf_35,error_memory_oom,0.0
+tfidf_36,error_notfound_404,0.0
+tfidf_37,error_parsing,0.0
+tfidf_38,error_permission_403,0.0
+tfidf_39,error_ratelimit_429,0.0
+tfidf_40,error_server_500,0.0
+tfidf_41,error_ssl_cert,0.0
+tfidf_42,error_timeout_429,0.0
+tfidf_43,error_validation,0.0
+tfidf_153,[OUT OF RANGE],0.0
